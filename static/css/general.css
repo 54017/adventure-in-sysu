@@ -1,0 +1,77 @@
+body {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.tab-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tab-bar-section ul {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-bar {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-bar-section ul {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown li {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#question-text {
+	text-align: center;
+}
+
+#choose {
+	padding-top: 5%;
+}
+#container{
+	padding-top: 5%;
+	min-height: 80%;
+	width: 80%;
+}
+#container h4 {
+	color: black;
+	font-weight: bold;
+}
+#choose a {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+body{
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #f8f8f8 url(../images/index_bg.jpg);
+	background-size: 100% auto;
+	background-position: 15% 0%;
+	font-weight: 400;
+	font-size: 15px;
+	color: white;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+h2, h3, h4 {
+	color: white;
+	text-align: center;
+	padding: 1%;
+}
+
+.ie7 body{
+	overflow:hidden;
+}
+
+#footbar {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 13%!important;
+	height: auto;
+}
+
+.exit-off-canvas { 
+	position: fixed;
+	bottom: 0;
+}

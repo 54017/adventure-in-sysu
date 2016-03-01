@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>中山大学大冒险登陆页面</title>
+
+    <link href={{static_url('css/foundation.min.css')}} rel="stylesheet">
+   <!-- <link href={{static_url('css/login.css')}} rel="stylesheet">-->
+    <link href={{static_url('css/index.css')}} rel="stylesheet">
+    <script src={{ static_url('js/vendor/jquery.js') }}></script>
+    <script src={{ static_url('js/foundation.min.js') }}></script>
+  </head>
+  <body>
+
+   <!-- 导航栏 -->
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#">中山大学大冒险</a></h1>
+            </li>
+            <li class="toggle-topbar"><a href="#"><span>{{user}}</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li>
+                    <a href="#">{{ user }}</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <div id="container">
+            <div class="row" id="choose">
+                <div class="small-6 large-4 large-centered small-centered columns">
+                    <div class="row">
+                        <a href="/start" class="small-centered large-centered columns button cbtn radius" id="A">新的故事</a>
+                    </div>
+                    <div class="row">
+                        <a href="/continue" class="small-centered large-centered columns button cbtn radius" id="B">旧的回忆</a>
+                    </div>
+                    <div class="row">
+                        <a href="/logout" class="small-centered large-centered columns button cbtn radius" id="C">退出游戏  </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <script>
+    $(document).foundation();
+    </script>
+
+
+  </body>
+</html>
